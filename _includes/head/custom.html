@@ -23,3 +23,9 @@
 <meta name="theme-color" content="var(--global-bg-color)"/>
 
 <!-- end custom head snippets -->
+
+<!-- Keep the supplied portrait circular in the Academic Pages sidebar. -->
+<style>
+  .author__avatar img { width: 175px; height: 175px; object-fit: cover; object-position: 50% 24%; }
+  @media (max-width: 924px) { .author__avatar img { width: 100px; height: 100px; } }
+</style>
