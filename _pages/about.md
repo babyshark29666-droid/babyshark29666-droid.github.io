@@ -45,8 +45,8 @@ During my robotics internship, I worked on **admittance and impedance control** 
 # Publications
 
 **Dynamic truncation and the Berger–Boos corrected h–function method for optimal exact Poisson confidence intervals with unknown backgrounds**<br>
-Lu, H., & **Zhao, S.**<br>
-*Manuscript under review at Computational Statistics.*
+Lu, H., **Zhao, S.**, & Wu, Q.<br>
+*Manuscript submitted to [Statistical Papers](https://link.springer.com/journal/362).*
 
 Research on exact Poisson inference for weak signals and unknown backgrounds, combining dynamic truncation, Berger–Boos correction and the h-function. The study compares interval coverage and efficiency, with an application to KARMEN neutrino detection data.
 

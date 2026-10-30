@@ -43,8 +43,8 @@ lang: zh-CN
 # 论文
 
 **Dynamic truncation and the Berger–Boos corrected h–function method for optimal exact Poisson confidence intervals with unknown backgrounds**<br>
-Lu, H., & **Zhao, S.**<br>
-*Computational Statistics 在审稿件。*
+Lu, H., **Zhao, S.**, & Wu, Q.<br>
+*已投稿至 [Statistical Papers](https://link.springer.com/journal/362)。*
 
 针对弱信号与未知背景下的稀有事件数据开展精确 Poisson 推断研究，结合动态截断、Berger–Boos 校正与 h-function，比较区间覆盖率和效率，并应用于 KARMEN 中微子探测数据。
 
