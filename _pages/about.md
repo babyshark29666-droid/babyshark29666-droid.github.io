@@ -21,23 +21,22 @@ During my robotics internship, I worked on **admittance and impedance control** 
 <div class="education-list">
   <div class="education-entry">
     <a class="education-logo" href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer" aria-label="Visit the HKUST Guangzhou website">
-      <img src="{{ '/images/universities/hkust-gz-logo.png' | relative_url }}" alt="HKUST Guangzhou logo" width="68" height="68" loading="lazy">
+      <img src="{{ '/images/universities/hkust-gz-logo.png' | relative_url }}" alt="HKUST Guangzhou logo" width="46" height="46" loading="lazy">
     </a>
     <div class="education-details">
       <h3 class="education-school"><a href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">HKUST (Guangzhou)<span class="education-external" aria-hidden="true"> ↗</span></a></h3>
       <p class="education-degree">Redbird MPhil</p>
-      <p class="education-note">Incoming student · Expected entry in September 2027</p>
+      <p class="education-note">Incoming student</p>
     </div>
     <p class="education-dates">Sep 2027 – Jul 2029<br><span>Expected</span></p>
   </div>
   <div class="education-entry">
     <a class="education-logo" href="https://www.gzhu.edu.cn/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Guangzhou University website">
-      <img src="{{ '/images/universities/gzhu-mark.png' | relative_url }}" alt="Guangzhou University emblem" width="68" height="68" loading="lazy">
+      <img src="{{ '/images/universities/gzhu-mark.png' | relative_url }}" alt="Guangzhou University emblem" width="46" height="46" loading="lazy">
     </a>
     <div class="education-details">
       <h3 class="education-school"><a href="https://www.gzhu.edu.cn/" target="_blank" rel="noopener noreferrer">Guangzhou University<span class="education-external" aria-hidden="true"> ↗</span></a></h3>
       <p class="education-degree">B.Sc. in Statistics</p>
-      <p class="education-note">Expected graduation in July 2027</p>
     </div>
     <p class="education-dates">Sep 2023 – Jul 2027<br><span>Expected</span></p>
   </div>
