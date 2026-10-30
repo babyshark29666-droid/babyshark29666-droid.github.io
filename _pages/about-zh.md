@@ -16,8 +16,30 @@ lang: zh-CN
 
 # 教育背景
 
-- **广州大学** — 统计学本科，2023年9月至2027年7月（预计）。
-- **香港科技大学（广州）** — Redbird MPhil，已确认可入读，预计2027年9月入学、2029年7月毕业。
+<div class="education-list">
+  <div class="education-entry">
+    <a class="education-logo" href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer" aria-label="访问香港科技大学广州官网">
+      <img src="{{ '/images/universities/hkust-gz-logo.png' | relative_url }}" alt="香港科技大学广州标识" width="68" height="68" loading="lazy">
+    </a>
+    <div class="education-details">
+      <h3 class="education-school"><a href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">香港科技大学（广州）<span class="education-external" aria-hidden="true"> ↗</span></a></h3>
+      <p class="education-degree">Redbird MPhil</p>
+      <p class="education-note">已确认可入读 · 预计2027年9月入学</p>
+    </div>
+    <p class="education-dates">2027年9月—2029年7月<br><span>预计</span></p>
+  </div>
+  <div class="education-entry">
+    <a class="education-logo" href="https://www.gzhu.edu.cn/" target="_blank" rel="noopener noreferrer" aria-label="访问广州大学官网">
+      <img src="{{ '/images/universities/gzhu-mark.png' | relative_url }}" alt="广州大学校徽" width="68" height="68" loading="lazy">
+    </a>
+    <div class="education-details">
+      <h3 class="education-school"><a href="https://www.gzhu.edu.cn/" target="_blank" rel="noopener noreferrer">广州大学<span class="education-external" aria-hidden="true"> ↗</span></a></h3>
+      <p class="education-degree">统计学本科</p>
+      <p class="education-note">预计2027年7月毕业</p>
+    </div>
+    <p class="education-dates">2023年9月—2027年7月<br><span>预计毕业</span></p>
+  </div>
+</div>
 
 # 论文
 
