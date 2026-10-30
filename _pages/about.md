@@ -50,6 +50,14 @@ Lu, H., **Zhao, S.**, & Wu, Q.<br>
 
 Research on exact Poisson inference for weak signals and unknown backgrounds, combining dynamic truncation, Berger–Boos correction and the h-function. The study compares interval coverage and efficiency, with an application to KARMEN neutrino detection data.
 
+**[Sustainable Tourism Model Based on DPSIR and Non-linear Programming — A Case Study of Juneau, Alaska, USA](https://doi.org/10.61369/ASDS.12187)**<br>
+Wang, J., **Zhao, S.**, & Gu, Z.<br>
+*Applied Statistics and Data Science (ASDS), 1(3), 112–116, 2025.*
+
+Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming with a genetic algorithm to study sustainable tourism in Juneau, balancing tourism revenue, resource constraints and residents' interests.
+
+[DOI](https://doi.org/10.61369/ASDS.12187) · [PDF]({{ '/files/publications/sustainable-tourism-dpsir-2025.pdf' | relative_url }})
+
 # Research Experience
 
 ### Exact Poisson inference with unknown backgrounds

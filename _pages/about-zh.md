@@ -48,6 +48,14 @@ Lu, H., **Zhao, S.**, & Wu, Q.<br>
 
 针对弱信号与未知背景下的稀有事件数据开展精确 Poisson 推断研究，结合动态截断、Berger–Boos 校正与 h-function，比较区间覆盖率和效率，并应用于 KARMEN 中微子探测数据。
 
+**[基于 DPSIR 和非线性规划的可持续旅游模型——以美国阿拉斯加州朱诺市为例](https://doi.org/10.61369/ASDS.12187)**<br>
+王嘉蔚，**赵淑媛**，顾子林。<br>
+*Applied Statistics and Data Science（ASDS），2025 年，1(3)：112–116。*
+
+结合熵权 TOPSIS、DPSIR 框架与非线性规划，并采用遗传算法求解，分析朱诺市旅游收益、资源约束与居民利益之间的权衡。
+
+[DOI](https://doi.org/10.61369/ASDS.12187) · [论文 PDF]({{ '/files/publications/sustainable-tourism-dpsir-2025.pdf' | relative_url }})
+
 # 研究经历
 
 ### 未知背景下的 Poisson 精确推断
