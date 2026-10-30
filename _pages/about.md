@@ -60,7 +60,7 @@ During my robotics internship, I worked on **admittance and impedance control** 
 Lu, H., **Zhao, S.**, & Wu, Q.<br>
 *Manuscript submitted to [Statistical Papers](https://link.springer.com/journal/362).*
 
-Research on exact Poisson inference for weak signals and unknown backgrounds, combining dynamic truncation, Berger–Boos correction and the h-function. The study compares interval coverage and efficiency, with an application to KARMEN neutrino detection data.
+Proposes a statistical inference method for exact interval estimation of weak Poisson signals with unknown backgrounds, combining Poisson-quantile-based dynamic truncation, the h-function and Berger–Boos correction. Numerical simulations compare the coverage probabilities and expected interval lengths of Bayesian, IM and NIM methods, with an application to KARMEN neutrino detection data.
 
 </div>
 
@@ -87,9 +87,9 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 ### Exact Poisson inference with unknown backgrounds
 <p class="entry-meta"><em>Research member · September 2025–April 2026</em></p>
 
-- Investigated exact inference for rare-event data, with application contexts in high-energy physics and biomedical detection.
-- Participated in research on dynamic truncation using Poisson quantiles, Berger–Boos correction and the h-function.
-- Compared initial, one-time improved and optimal exact confidence intervals across Bayesian, IM and NIM methods through simulation studies.
+- **Statistical methodology:** Contributed to an h-function-based framework for exact interval estimation, incorporating Berger–Boos correction to handle unknown background parameters and using Poisson quantiles to dynamically truncate the sample space.
+- **Numerical simulation and performance evaluation:** Designed and conducted numerical simulations comparing the coverage probability (CP) and expected interval length (EL) of initial, one-time improved and iteratively optimized confidence intervals across Bayesian, IM and NIM methods, assessing coverage accuracy and interval efficiency.
+- **Real-data application:** Applied the proposed method to KARMEN neutrino detection data, constructing auxiliary Poisson observations from the background estimate and its standard deviation, and comparing confidence intervals for signal intensity across methods.
 
 </div>
 
