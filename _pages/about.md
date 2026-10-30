@@ -14,7 +14,7 @@ redirect_from:
 
 I am an undergraduate in **Statistics at Guangzhou University**, with graduation expected in July 2027. My research focuses on exact Poisson inference with unknown backgrounds. Through competitions, I have also explored longitudinal health data and sustainable tourism modeling. I am interested in applying mathematical and computational methods to real-world problems.
 
-During my robotics internship, I worked on **admittance and impedance control** for a six-axis manipulator, including deployment from MuJoCo simulation to an ELFIN10 robot. I am an incoming **Redbird MPhil** student at **HKUST (Guangzhou)**, with entry expected in September 2027.
+During my robotics internship, I worked on **admittance and impedance control** for a six-axis manipulator through MuJoCo simulation and integration testing on an ELFIN10-L robot. I have received an offer for the **Redbird MPhil** at **HKUST (Guangzhou)**, with entry expected in September 2027.
 
 [Curriculum Vitae (PDF)]({{ '/files/Zhao_Shuyuan_CV.pdf' | relative_url }}) · [中文主页]({{ '/zh/' | relative_url }})
 
@@ -32,7 +32,7 @@ During my robotics internship, I worked on **admittance and impedance control** 
 <div class="education-details">
 <h3 class="education-school"><a href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">HKUST (Guangzhou)<span class="education-external" aria-hidden="true"> ↗</span></a></h3>
 <p class="education-degree">Redbird MPhil</p>
-<p class="education-note">Incoming student</p>
+<p class="education-note">Offer received</p>
 </div>
 <p class="education-dates">Sep 2027 – Jul 2029<br><span>Expected</span></p>
 </div>
@@ -106,9 +106,9 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 
 #### Cartesian-space admittance control for a six-axis manipulator
 
-- Built a mass–damping–stiffness admittance model to convert external forces into Cartesian position and velocity corrections for contact tasks, surface following and human–robot interaction.
-- Combined these corrections with linear and circular trajectories, with displacement, velocity and torque limits in the control loop.
-- Deployed the algorithm from MuJoCo to an ELFIN10 robot, aligning the kinematic model, control timing and interfaces, and completing hardware parameter calibration and validation through CODESYS and TCP.
+- Built a mass–damping–stiffness admittance model, verified responses to three-dimensional forces in MuJoCo, and corrected coordinate transformations and response directions affected by inconsistent orientation representations.
+- Contributed to fixed-point admittance deployment in CODESYS and the addition of position offsets along linear trajectories; used segmented interpolation to reduce response lag and corrected ACS/MCS coordinate-system settings.
+- Tested Python–CODESYS TCP communication and integration with an ELFIN10-L robot, addressing sensor zero offsets, sampling periods and target-command update rates, and identifying stalled force-sensor data updates.
 
 </div>
 
@@ -116,9 +116,9 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 
 #### Joint-space impedance control for a six-axis manipulator
 
-- Computed impedance torques from joint position and velocity errors, combining trajectory tracking with compliant responses to external obstruction.
-- Used Pinocchio-based dynamics modeling for gravity, Coriolis and friction compensation, with soft start, torque limits and connection-loss protection.
-- Completed simulation-to-hardware deployment and trajectory validation, aligning joint order, zero offsets, units and torque directions for CST torque control.
+- Developed spring–damper impedance control from joint position and velocity errors, contributing to six-axis control implementation and CST torque-output tests on hardware.
+- Integrated Pinocchio-based gravity compensation with friction compensation, calibrated drive-torque mappings and scaling, adjusted torque limits and added connection-loss protection.
+- Corrected the ELFIN10-L forward-kinematics model, verified forward/inverse kinematics and parallel comparisons of the original and revised interpolators, and conducted linear-trajectory and inclined-surface contact tests.
 
 </div>
 

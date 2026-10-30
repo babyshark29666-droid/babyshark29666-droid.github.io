@@ -12,7 +12,7 @@ lang: zh-CN
 
 我是**广州大学统计学本科生赵淑媛**，预计2027年7月毕业。我参与未知背景下的 Poisson 精确推断研究，也在竞赛中探索了纵向健康数据分析与可持续旅游建模。我关注数学与计算方法如何应用于真实问题。
 
-在机器人控制实习中，我参与了六轴机械臂的**导纳与阻抗控制**开发，以及从 MuJoCo 仿真到 ELFIN10 真机的迁移验证。我已确认可入读**香港科技大学（广州）Redbird MPhil**，预计2027年9月入学。
+在机器人控制实习中，我参与了六轴机械臂的**导纳与阻抗控制**开发，开展 MuJoCo 仿真与 ELFIN10-L 真机联调。我已收到**香港科技大学（广州）Redbird MPhil** 的录取 offer，预计2027年9月入学。
 
 [英文简历 PDF]({{ '/files/Zhao_Shuyuan_CV.pdf' | relative_url }}) · [English]({{ '/' | relative_url }})
 
@@ -30,7 +30,7 @@ lang: zh-CN
 <div class="education-details">
 <h3 class="education-school"><a href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">香港科技大学（广州）<span class="education-external" aria-hidden="true"> ↗</span></a></h3>
 <p class="education-degree">Redbird MPhil</p>
-<p class="education-note">已确认可入读</p>
+<p class="education-note">已确认收到 offer</p>
 </div>
 <p class="education-dates">2027年9月—2029年7月<br><span>预计</span></p>
 </div>
@@ -104,9 +104,9 @@ Lu, H., **Zhao, S.**, & Wu, Q.<br>
 
 #### 六轴机械臂笛卡尔空间导纳控制
 
-- 建立质量—阻尼—刚度导纳模型，将末端外力转换为笛卡尔空间位置和速度修正量，面向接触作业、表面跟随与人机交互场景实现柔顺响应。
-- 将导纳修正叠加至直线或圆弧名义轨迹，搭建外力采集、导纳求解、位姿修正、逆运动学与 PD 力矩控制链路，并加入位移、速度和力矩限幅。
-- 完成 MuJoCo 仿真到 ELFIN10 真机的迁移，统一运动学模型、控制周期和数据接口，通过 CODESYS 与 TCP 通信完成参数标定与真机验证。
+- 建立质量—阻尼—刚度导纳模型，在 MuJoCo 中验证三维受力响应，并修正姿态表示不一致引起的坐标变换与响应方向问题。
+- 参与 CODESYS 定点导纳部署及直线轨迹增量叠加，采用分段插补缓解导纳响应滞后，修正 ACS/MCS 坐标系配置问题。
+- 开展 Python–CODESYS TCP 通信与 ELFIN10-L 真机联调，处理传感器零点偏置、采样周期和目标指令更新频率问题，并定位传感器数据停止刷新故障。
 
 </div>
 
@@ -114,9 +114,9 @@ Lu, H., **Zhao, S.**, & Wu, Q.<br>
 
 #### 六轴机械臂关节空间阻抗控制
 
-- 基于关节位置和速度误差计算阻抗力矩，兼顾轨迹跟踪与外部阻挡下的柔顺响应。
-- 结合 Pinocchio 动力学模型进行重力、科氏力与摩擦补偿，并加入软启动、力矩限幅和失联保护。
-- 完成仿真到真机迁移，统一关节顺序、零位偏置、单位与力矩方向，完成 CST 力矩控制及真机轨迹验证。
+- 基于关节位置与速度误差建立弹簧—阻尼阻抗控制，参与六轴阻抗控制实现与真机 CST 力矩输出测试。
+- 联调 Pinocchio 重力补偿与摩擦补偿，校准驱动力矩映射及量级，调整力矩限幅并加入通信失联保护。
+- 修正 ELFIN10-L 正运动学模型，通过正逆运动学回环与新旧插补器并行对照验证，开展直线轨迹与斜面接触测试。
 
 </div>
 
