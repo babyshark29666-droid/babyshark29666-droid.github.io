@@ -1,0 +1,81 @@
+/* Whitespace separates sections, projects and supporting details. */
+.page__content .profile-section {
+  display: flow-root;
+}
+
+.page__content .profile-section + .profile-section {
+  margin-top: 3.5rem;
+}
+
+.page__content .profile-section > h1 {
+  margin: 0 0 1.25rem;
+  scroll-margin-top: 100px;
+}
+
+.page__content .profile-section p {
+  margin: 0 0 0.8rem;
+}
+
+.page__content .profile-section ul {
+  margin: 0.8rem 0 0;
+}
+
+.page__content .profile-section li {
+  margin-bottom: 0.4rem;
+}
+
+.page__content .profile-section h3 {
+  margin: 0 0 0.5rem;
+}
+
+.page__content .profile-section .entry-meta {
+  margin: 0.4rem 0 0.85rem;
+}
+
+.page__content .profile-entry + .profile-entry {
+  margin-top: 2rem;
+}
+
+.page__content .internship-project {
+  margin-top: 1.5rem;
+}
+
+.page__content .internship-project h4 {
+  margin: 0 0 0.6rem;
+}
+
+.page__content .profile-section .education-list,
+.page__content .profile-section > :last-child,
+.page__content .profile-entry > :last-child,
+.page__content .internship-project > :last-child,
+.page__content .profile-section li:last-child {
+  margin-bottom: 0;
+}
+
+/* Keep education rows compact within the larger section rhythm. */
+.page__content .profile-section .education-school {
+  margin: 0 0 5px;
+}
+
+.page__content .profile-section .education-degree {
+  margin: 0 0 4px;
+}
+
+.page__content .profile-section .education-note,
+.page__content .profile-section .education-dates {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .page__content .profile-section + .profile-section {
+    margin-top: 2.75rem;
+  }
+
+  .page__content .profile-section > h1 {
+    margin-bottom: 1rem;
+  }
+
+  .page__content .profile-entry + .profile-entry {
+    margin-top: 1.75rem;
+  }
+}
